@@ -1,4 +1,6 @@
 module.exports = {
+    outputDir: './docs',
+
     chainWebpack: (config) => {
         const svgRule = config.module.rule('svg');
 

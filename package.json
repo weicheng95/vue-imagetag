@@ -5,8 +5,9 @@
   "main": "dist/vue-imagetag.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-imagetag ./src/components/vue-imagetag.vue",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --dest dist/ --target lib --name vue-imagetag ./src/components/vue-imagetag.vue",
+    "lint": "vue-cli-service lint",
+    "demo:build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^2.6.5",
