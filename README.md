@@ -1,4 +1,4 @@
-# sample-tagging
+# vue-imagetag
 
 ## Project setup
 ```
